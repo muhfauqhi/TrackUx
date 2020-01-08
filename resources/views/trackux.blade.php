@@ -6,7 +6,6 @@
     <div class="row row-padding">
         <div class="col-lg-12 homepage text-center">
             <h1 class="homepage"><b>Track Ux</b> community for extreme sports</h1>
-            <h4 class="homepage"><span class="typing"></span></h4>
             <div class="showcase">
                 <img src="{{ url('/images/homepage.jpeg')}}" alt="">
             </div>
