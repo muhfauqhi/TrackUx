@@ -38,8 +38,13 @@
                 <h6 class="text-muted">
                     Last updated {{ $p->updated_at->diffForHumans() }}
                 </h6>
-                @else
+                @role('User')
                 <h6 class="text-muted float-right">
+                    Last updated {{ $p->updated_at->diffForHumans() }}
+                </h6>
+                @endrole
+                @else
+                <h6 class="text-muted">
                     Last updated {{ $p->updated_at->diffForHumans() }}
                 </h6>
                 @endrole
